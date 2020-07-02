@@ -1,7 +1,7 @@
 <?php
 include('html_parser/simple_html_dom.php');
 
-function scraping_IMDB($url) {
+function scraping_anime($url) {
     // create HTML DOM
     $html = file_get_html($url);
 
@@ -105,6 +105,6 @@ function scraping_IMDB($url) {
 
 // -----------------------------------------------------------------------------
 // test it!
-scraping_IMDB('https://www.animesaturn.com/anime/Act-Addict-Actors-Season-Spring--Summer');
+scraping_anime('https://www.animesaturn.com/anime/Act-Addict-Actors-Season-Spring--Summer');
 
 ?>
