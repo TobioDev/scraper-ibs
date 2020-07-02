@@ -51,7 +51,7 @@ function scraping_IMDB($url) {
 
     //LISTA EPISODI
 
-    echo $html;
+    //echo $html;
 
     // $ret = $html->find('a.bottone-ep');
     // echo count($ret);
